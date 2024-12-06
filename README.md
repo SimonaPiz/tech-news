@@ -3,7 +3,7 @@
 
 Here is a working live demo [tech-news-react-router](https://tech-news-react-router.netlify.app/)
 
-![anteprima]()
+![anteprima](https://github.com/user-attachments/assets/44a2b9e5-cfdd-4264-a1c9-441fbbd65aff)
 
 ## Table of contents
 * [About this project](#about-this-project)
