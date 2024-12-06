@@ -1,5 +1,5 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
 
 import About from "../components/About";
 import SignUp from "../components/SignUp";
@@ -16,11 +16,15 @@ import { Route } from 'react-router-dom';
 
 import "./App.css";
 
-const router = createBrowserRouter(
+const router = createBrowserRouter( createRoutesFromElements(
   <Route path="/" element={ <Root/> }>
-    {/* Add Routes here! */}
+    <Route path="/about" element={<About/>}></Route>
+    <Route path="/sign-up" element={<SignUp/>}></Route>
+    <Route path="/artcles" element={<Articles/>}></Route>
+    <Route path="/categories" element={<Categories/>}></Route>
+    <Route path="/profile" element={<Profile/>}></Route>
   </Route>
-);
+));
 
 function App() {
   return (
