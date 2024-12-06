@@ -1,19 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Thec News - Web App
+> A React app to practice React Router v6
 
-## Available Scripts
+Here is a working live demo [tech-news-react-router](https://tech-news-react-router.netlify.app/)
 
-In the project directory, you can run:
+![anteprima]()
 
-### `npm start`
+## Table of contents
+* [About this project](#about-this-project)
+* [Objective](#objective)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About this project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+In this project, I practice using React Router to add client-side routing to a React Application. 
 
-## Learn More
+## Objective
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The objective is to **add client-side routing to the application** using React Router so that:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Install `react-router-dom` and add it to a React application.
+- Enable routing by using `RouterProvider` and providing a `router`.
+- Creating a router using `createBrowserRouter()`.
+- Use `createRoutesFromElements()` to configure a router.
+- Use the `Route` component to add static and dynamic routes to an application.
+- Use `Link` and `NavLink` components to add links to an application.
+- Access the values of URL parameters using React Router’s `useParams` hook.
+- Create nested routes using `Route`, `Outlet`, and relative `paths`.
+- Declaratively redirect users by rendering React Router’s `Navigate` component
+- Imperatively redirect users via the `useNavigate` hook.
+- Access and set the value of query parameters using React Router’s `useSearchParams` hook.
+
+
+## Technologies
+- React 18
+- React Router 6
+
+
+## Setup
+To run this project, install it locally using npm:
+
+```
+$ cd ../[directory]
+$ npm install
+$ npm start
+```
